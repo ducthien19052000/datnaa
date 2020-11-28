@@ -1,0 +1,26 @@
+.site-layout-content-admin{
+    min-height: 90vh;
+    background-color: #fff;
+    
+}
+.title-content-admin{
+    margin: 0 0 10px 0;
+}
+.title-h4{
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 30px;
+}
+.table-food-admin{
+    width: 100%;
+    
+}
+.top-content-food{
+   
+}
+.col-add-food{
+    margin: 30px 10px;
+}
+.col-search-food{
+    margin: 30px 10px;
+}

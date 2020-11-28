@@ -1,0 +1,179 @@
+.carousel-home {
+  padding: 0;
+  width: 100%;
+  margin: 0 auto;
+}
+.site-layout-background-main-home {
+  padding: 24;
+  min-height: 38rem;
+  width: 93%;
+  box-shadow: 10px 10px 50px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  margin: 0 auto;
+  background: #fff;
+}
+
+#myBtn {
+  background-color: #eb7100;
+  padding: 5px;
+  position: fixed;
+  z-index: 1000;
+  top: 19vh;
+  right: 3vh;
+  border: 8px solid white;
+  justify-content: center;
+  border-radius: 50px;
+  width: 60px;
+}
+.row-food-home {
+  width: 100%;
+}
+.add-to-cart:hover {
+  transform: translateY(2px);
+  box-shadow: 0 1px 20px rgba(0, 0, 0, 0.1);
+}
+.add-to-cart:active {
+  transform: translateY(-2px);
+}
+.section-courses{
+    width: 100%;
+}
+.u-center-text{
+    text-align: center;
+}
+.card {
+  perspective: 150rem;
+  position: relative;
+  height: 45rem;
+  width: 90%;
+}
+.card__side {
+  color: white;
+  font-size: 2rem;
+  height: 45rem;
+  transition: all 0.8s ease;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  backface-visibility: hidden;
+  box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.15);
+  border-radius: 5rem;
+  overflow: hidden;
+  clip-path: ellipse(80% 70% at 50% 30%);
+}
+.card__side--front {
+  background-color: #fff;
+}
+.card__side--back {
+  background-color: green;
+  transform: rotateY(180deg);
+}
+.card__side--back-1 {
+  background-image: linear-gradient(to right, #ffb900, #ff7730);
+}
+.card__side--back-2 {
+  background-image: linear-gradient(to right, #8e9efc, #1c3eff);
+}
+.card__side--back-3 {
+  background-image: linear-gradient(to right, #55c57a, #28b485);
+}
+.card__heading {
+  font-size: 2.8rem;
+  font-weight: 300;
+  text-align: right;
+  text-transform: uppercase;
+  color: #fff;
+  position: absolute;
+  top: 12rem;
+  right: 2rem;
+  width: 75%;
+}
+.card__heading-span {
+  border-radius: 5rem;
+  padding: 1rem 1.5rem;
+  -webkit-box-decoration-break: clone;
+}
+.card__heading-span--1 {
+  background-image: linear-gradient(
+    to right bottom,
+    rgba(255, 185, 0, 0.85),
+    rgba(255, 119, 48, 0.85)
+  );
+}
+.card__heading-span--2 {
+  background-image: linear-gradient(
+    to right bottom,
+    rgba(142, 158, 252, 0.85),
+    rgba(28, 62, 255, 0.85)
+  );
+}
+.card__heading-span--3 {
+  background-image: linear-gradient(
+    to right bottom,
+    rgba(85, 197, 122, 0.85),
+    rgba(40, 180, 133, 0.85)
+  );
+}
+.card__details {
+  padding: 3rem;
+  color: #777777;
+}
+.card__details ul {
+  list-style: none;
+  width: 70%;
+  margin: 0 auto;
+}
+.card__details li {
+  text-align: center;
+  font-size: 1.5rem;
+  padding: 1rem;
+}
+.card__details li:not(:last-child) {
+  border-bottom: 1px solid #dbdbdb;
+}
+.card__cta {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  width: 90%;
+}
+.card__price-box {
+  text-align: center;
+  color: #fff;
+  margin-bottom: 8rem;
+}
+.card__price-only {
+  font-size: 1.4rem;
+  text-transform: uppercase;
+}
+.card__price-value {
+  font-size: 6rem;
+  font-weight: 100;
+  margin-bottom: 5rem;
+}
+.card:hover .card__side--front {
+  transform: rotateY(-180deg);
+}
+.card:hover .card__side--back {
+  transform: rotateY(0);
+}
+.card__picture {
+  background-size: cover;
+  height: 23rem;
+  background-blend-mode: screen;
+}
+.card__picture--1 {
+  background-image: linear-gradient(to right, #ffb900, #ff7730),
+    url("https://www.upsieutoc.com/images/2019/04/13/qua-tang.gif");
+}
+.card__picture--2 {
+  background-image: linear-gradient(to right, #8e9efc, #1c3eff),
+    url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTKUxOqPPk-oLwcS-KSUAK33rc8Gsh6buGCXQ&usqp=CAU");
+}
+.card__picture--3 {
+  background-image: linear-gradient(to right, #55c57a, #28b485),
+    url("https://lh3.googleusercontent.com/proxy/g4vpichX5uqvzOM5LmtopewoplN2dN_wJ7pROhY7koru3KLP0qkYm1tOtIDfObeRbvdwml0y5iwFRnamScqH4JToL_kuLN7iEv0mVgJ3NYdk97Q");
+}

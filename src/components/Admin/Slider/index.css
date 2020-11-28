@@ -1,0 +1,15 @@
+.slider-admin{}
+.top-sider{
+    margin: 16px 15px 16px 16px;
+
+}
+.logo{
+    height: 32px;
+    background: rgba(255, 255, 255, 0.2);
+    
+  
+}
+.trigger{
+    color: aliceblue;
+    font-size: 20px;
+}

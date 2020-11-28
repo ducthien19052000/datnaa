@@ -1,0 +1,151 @@
+.row-food-detail-container{
+    width: 95%;
+    margin-top: 30px;
+    margin: 0 auto;
+    
+}
+.col-img-food-detail{
+    padding: 10px;
+}
+.span-name-shop{
+    color:#787878 ;
+    margin-right: 5px;
+    font-size: 1.25rem;
+    line-height: 1.5rem;
+    font-weight: 500;
+
+   
+}
+.span-name-food-detail{
+    color:#EB7100 ;
+    font-size: 1.25rem;
+    line-height: 1.5rem;
+    font-weight: 500;
+  
+}
+.nameDetailItem{
+    font-size: 3rem;
+    font-weight: 600;
+    line-height: 4rem;
+}
+.span-id-food{
+    margin: 10px 0;
+    font-size: 2rem;
+    font-weight: 500;
+}
+.imageDetailItem{
+    height: 37.2rem;
+    width: 100%;
+    border-radius: 6px;
+    background-size: cover;
+    background-position:center;
+}
+.itemDetailImgListWrapped{
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+    overflow:auto;
+    
+}
+.itemDetailImg{
+    border: 1px solid rgb(0, 121, 63);
+    border-radius: 4px;
+    margin-right: 8px;
+    max-height: 10rem;
+
+}
+.colInfoDetailItem{
+    padding:10px;
+    display: flex;
+    flex-direction: column;
+}
+.itemDetailInfo{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 2.4rem;
+}
+.colCartDetailItem{
+    padding: 10px;
+    
+}
+.itemDetailCartQuantity{
+    background: white;
+    border-radius: 6px;
+    padding: 16px 24px;
+    margin-top: 26px;
+}
+.rowCartChangeQuantity{
+    width: 100%;
+    text-align: center;
+    
+     align-items: center;
+}
+.btnMinusQuantity{
+    cursor: pointer;
+    background-color: rgb(120, 120, 120);
+    width: 24px;
+    height: 24px;
+    border-radius: 20px;
+    border: none;
+    padding: 0px;
+    outline: none;
+}
+.spanMinusQuantity{
+    font-size: 1.6rem;
+    margin: 0 4px;
+    color: rgb(22, 22, 29);
+    font-weight: 500;
+}
+.btnPlusQuantity{
+    cursor: pointer;
+    background-color: rgb(0, 121, 63);
+    width: 24px;
+    height: 24px;
+    border-radius: 20px;
+    border: none;
+    padding: 0px;
+    outline: none;
+}
+.spanPlusQuantity{
+    font-size: 1.6rem;
+    margin: 0 4px;
+    color: rgb(22, 22, 29);
+    font-weight: 500;
+}
+.btnPlusQuantity:hover{
+    opacity: 0.9;
+    transform: translateY(-2px);
+}
+.btnPlusQuantity:active{
+    transform: translateY(1px);
+}
+
+.btnMinusQuantity:hover{
+    opacity: 0.9;
+    transform: translateY(-2px);
+}
+.btnMinusQuantity:active{
+    transform: translateY(1px);
+}
+.spanShowQuantity{
+    font-size: 1.6rem;
+    font-weight: 500;
+    margin: 0 15px;
+}
+.inputShowQuantity{
+    min-height: 4.5rem;
+    width: 8rem;
+    font-size: 1.6rem;
+    font-weight: 500;
+}
+.spanPriceDetailItem{
+    margin: 10px 0;
+    font-size: 1.6rem;
+    font-weight: 500;
+    line-height: 2.3rem;
+}
+.tableTopping{
+    border-radius: 6px;
+    background-color: white;
+
+}

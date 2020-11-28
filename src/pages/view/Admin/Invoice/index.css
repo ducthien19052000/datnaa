@@ -1,0 +1,8 @@
+.invoice__detailInfoUser{
+    margin: 0 10px;
+    padding: 0 8px;
+    background-color: aqua;
+    border-radius: 6px;
+    min-height: 39.5rem;
+    max-height: 50rem;
+}
